@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #353535;
+  width: 100vw;
+  text-align: center;
+}
+
+nav {
+  background-color: #FEF401;
+  position: fixed;
+  width: 100%;
+  padding: 1em;
+}
+
+#about {
+  height: 100vh;
+}
+
+#achivements {
+  min-height: 100vh;
+}
+
+#more {
+  height: 100vh;
+}
