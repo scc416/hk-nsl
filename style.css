@@ -18,22 +18,37 @@ nav {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .logo {
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
   width: 1em;
+  position: relative;
+  top: 0.1em;
+}
+
+.nav-link {
+  display: flex;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
   padding: 0 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
 }
 
-.nav-link {
-  display: flex;
+nav a:hover {
+  color: #353535;
+  background-color: #EEF7FE;
 }
 
 #about {
