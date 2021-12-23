@@ -1,26 +1,47 @@
 * {
   margin: 0;
   padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
   color: #353535;
   width: 100vw;
-  text-align: center;
 }
 
 nav {
-  background-color: #FEF401;
+  background-color: #1f538e;
   position: fixed;
   width: 100%;
-  padding: 1em;
+  padding: 1em 2em;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
 }
 
 #about {
   height: 100vh;
+  background-color: #f8e279;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #achivements {
   min-height: 100vh;
+  background-color: #df908e;
 }
 
 #more {
-  height: 100vh;
+  background-color: #f8e279;
 }
