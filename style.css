@@ -11,13 +11,7 @@ main {
   flex-direction: column;
 }
 
-@media (max-width: 350px) {
-  :root {
-    --penguin-size: 200px;
-  }
-}
-
-#navbar {
+.navbar {
   background-color: #67595e;
   display: flex;
   position: fixed;
@@ -124,7 +118,7 @@ main {
   left: 10px;
 }
 
-#contact {
+#more {
   background-color: #eed6d3;
   width: 100%;
   padding: 50px 0px;
