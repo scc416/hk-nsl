@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP");
 
 :root {
   font-family: Noto sans JP;
@@ -12,12 +12,13 @@ main {
 }
 
 @media (max-width: 350px) {
-    :root {
-    --penguin-size: 200px;    }
+  :root {
+    --penguin-size: 200px;
   }
+}
 
 #navbar {
-  background-color: #67595E;
+  background-color: #67595e;
   display: flex;
   position: fixed;
   width: 100vw;
@@ -34,7 +35,7 @@ main {
 }
 
 .nav-link:hover {
-  background-color: #A49393;
+  background-color: #a49393;
 }
 
 main {
@@ -48,7 +49,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #E8B4B8;
+  background-color: #e8b4b8;
   min-width: 100%;
 }
 
@@ -66,21 +67,21 @@ main {
 }
 
 #projects {
-    background-color: #A49393;
+  background-color: #a49393;
   width: 100%;
 }
 
 .project-tile {
   height: 100%;
   width: 100%;
-  background-color: #EED6D3;
+  background-color: #eed6d3;
   padding: 30px 10px 0 10px;
   text-align: center;
   transition: background-color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .project-tile:hover {
-  background-color: #E8B4B8;
+  background-color: #e8b4b8;
   text-decoration: underline;
 }
 
@@ -96,12 +97,12 @@ main {
 .show-all {
   width: 100%;
   padding: 20px 0 20px 0;
-    display: flex;
+  display: flex;
   justify-content: center;
 }
 
 .profile-button {
-  background-color: #67595E;
+  background-color: #67595e;
   color: white;
   border-color: white;
   border-style: solid;
@@ -124,7 +125,7 @@ main {
 }
 
 #contact {
-  background-color: #EED6D3;
+  background-color: #eed6d3;
   width: 100%;
   padding: 50px 0px;
 }
