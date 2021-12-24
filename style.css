@@ -165,8 +165,8 @@ section:nth-child(even) {
   }
 
   nav a {
-    padding: 0.85em 1em;
-    font-size: 1.2em;
+    padding: 1em;
+    font-size: 1.1em;
   }
 
   .logo {
