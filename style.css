@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;700&display=swap");
 
 * {
   margin: 0;
@@ -157,6 +157,11 @@ div.card {
 
 div.card * {
   color: #353535;
+  transition: color 0.8s ease;
+}
+
+div.card * * {
+  transition: color 0.8s ease;
 }
 
 div.card img {
@@ -170,7 +175,10 @@ div.card:hover {
 
 div.card:hover > * {
   color: white;
-  opacity: 1;
+}
+
+div.card:hover > * * {
+  color: white;
 }
 
 @media (min-width: 480px) {
