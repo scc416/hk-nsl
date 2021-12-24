@@ -17,7 +17,7 @@ https://scc416.github.io/hk-nsl/
 
 ## Final Product
 
-| ![desktop-initial](./docs/desktop.png) |
+| ![desktop-initial](./docs/desktop.gif) |
 | :--------------------------------------------: |
 |           _The web page on desktop_            |
 
