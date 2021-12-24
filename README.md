@@ -1,6 +1,6 @@
 # HKNSL
 
-A page for Hong Kong National Security Law, hightlighting some of its "achievements" after Beijing has passed the law for Hong Kong on 1st July, 2020.  
+A page for Hong Kong National Security Law, highlighting some of its "achievements" after Beijing has passed the law for Hong Kong on 1st July, 2020.  
 This web page is one of my project for [Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design/) on [freeCodeCamp](https://www.freecodecamp.org/): [Build a Personal Portfolio Webpage](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage).
 
 ## Table of Content
