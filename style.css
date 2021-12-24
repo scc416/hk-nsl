@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   text-align: center;
   box-sizing: border-box;
+  overflow-wrap: break-word;
 }
 
 body {
   color: #353535;
   width: 100vw;
-  font-family: 'Cabin';
+  font-family: "Poppins";
 }
 
 nav {
   background-color: #1f538e;
   position: fixed;
   width: 100%;
-  height: 6em;
+  height: 18vw;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -26,8 +27,8 @@ nav {
 }
 
 .logo {
-  font-size: 1.8em;
-  font-family: 'Roboto';
+  font-size: 5vw;
+  font-family: "Abril Fatface";
   font-weight: 600;
   padding: 0 0.5em;
   display: flex;
@@ -47,17 +48,41 @@ nav {
 nav a {
   color: #fff;
   text-decoration: none;
-  padding: 0.5em 1em;
+  padding: 0.4em 1em;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  font-size: 1.1em;
+  font-size: 3vw;
 }
 
 nav a:hover {
   color: #353535;
-  background-color: #EEF7FE;
+  background-color: #eef7fe;
+}
+
+section {
+  padding: 6vw;
+}
+
+#about h1 {
+  font-size: 8vw;
+  font-family: "Abril Fatface";
+  padding-bottom: 0.1em;
+}
+
+#about h2 {
+  font-size: 4vw;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 2em;
+}
+
+#about p {
+  font-size: 2.5vw;
 }
 
 #about {
@@ -70,11 +95,25 @@ nav a:hover {
 
 #achivements {
   min-height: 100vh;
-  background-color: #C4D0D0;
+  background-color: #c4d0d0;
 }
 
 #more {
   background-color: #f8e279;
+}
+
+@media (min-width: 480px) {
+  nav {
+    height: 6em;
+  }
+
+  nav a {
+    font-size: 1em;
+  }
+
+  .logo {
+    font-size: 1.5em;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -85,6 +124,15 @@ nav a:hover {
   }
 
   nav a {
-    padding: 1em;
+    padding: 0.85em 1em;
+    font-size: 1.2em;
+  }
+
+  #about h1 {
+    font-size: 7.5vw;
+  }
+
+  .logo {
+    font-size: 1.8em;
   }
 }
