@@ -68,6 +68,10 @@ nav a:hover {
 
 section {
   padding: 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #about h1 {
@@ -92,17 +96,21 @@ h3 {
 
 #about {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 section:nth-child(odd) {
   background-color: #f8e279;
 }
+
 section:nth-child(even) {
   background-color: #c4d0d0;
+}
+
+section:nth-child(odd) .read-more {
+  background-color: #c4d0d0;
+}
+section:nth-child(even) .read-more {
+  background-color: #f8e279;
 }
 
 .read-more {
@@ -110,7 +118,6 @@ section:nth-child(even) {
   height: 7vw;
   width: 25vw;
   font-size: 3vw;
-  background-color: #c4d0d0;
   color: #353535;
   border-color: white;
   border-style: solid;
@@ -169,7 +176,7 @@ div.card * * {
 .image-container img {
   max-height: 100%;
   padding: 0.3em 0;
-} 
+}
 
 .image-container {
   flex: 1 1 auto;
