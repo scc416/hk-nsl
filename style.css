@@ -75,6 +75,10 @@ section {
   font-size: 4vw;
 }
 
+#about a {
+  text-decoration: none;
+}
+
 h3 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -91,6 +95,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #achivements {
@@ -102,13 +107,32 @@ h3 {
   background-color: #f8e279;
 }
 
+.read-more {
+  margin-top: 2vw;
+  height: 7vw;
+  width: 25vw;
+  font-size: 3vw;
+  background-color: #c4d0d0;
+  color: #353535;
+  border-color: white;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: font-size 0.5s ease;
+}
+
+.read-more:hover {
+  font-size: 3.5vw;
+}
+
 @media (min-width: 480px) {
   nav {
     height: 6em;
   }
 
   nav a {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   .logo {
@@ -116,9 +140,29 @@ h3 {
   }
 }
 
+@media (min-width: 768px) {
+  .read-more {
+    height: 54px;
+    width: 192px;
+    font-size: 23px;
+    background-color: #c4d0d0;
+    color: #353535;
+    border-color: white;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: font-size 0.5s ease;
+  }
+
+  .read-more:hover {
+    font-size: 27px;
+  }
+}
+
 @media (min-width: 1024px) {
   nav {
-    height: 3.5em;
+    height: 3.8em;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -128,11 +172,19 @@ h3 {
     font-size: 1.2em;
   }
 
-  #about h1 {
-    font-size: 7.5vw;
-  }
-
   .logo {
     font-size: 1.8em;
+  }
+
+  #about h1 {
+    font-size: 82px;
+  }
+
+  #about h2 {
+    font-size: 41px;
+  }
+
+  #about p {
+    font-size: 26px;
   }
 }
